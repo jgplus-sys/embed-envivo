@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductores</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            overflow: hidden;
+            position: relative;
+        }
+        iframe {
+            width: 100vw;
+            height: 100vh;
+            border: 0;
+        }
+        /* Capa ajustada solo al botón Copy Embed */
+        .copy-button-blocker {
+            position: absolute;
+            top: 10px;          /* Distancia desde arriba */
+            right: 15px;        /* Distancia desde la derecha */
+            width: 120px;       /* Ancho del botón */
+            height: 35px;       /* Alto del botón */
+            background-color: transparent; /* Si quieres ocultarlo visualmente usa #000 */
+            z-index: 9999;      /* Asegura que esté por encima del iframe */
+            pointer-events: auto; /* Inhabilita los clics sobre el botón */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cuadro protector sobre el botón -->
+    <div class="copy-button-blocker"></div>
+
+    <iframe src="https://exmxbxe.cfd/oecw45uv-9737" width="100%" height="100%" frameborder="0" scrolling="no" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
+
+</body>
+</html>
